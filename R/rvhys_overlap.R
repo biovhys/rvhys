@@ -1,4 +1,12 @@
-# 查看overlap
+#' 查看overlap
+#'
+#' @param vector1
+#' @param vector2
+#'
+#' @return
+#' @export
+#'
+#' @examples
 check_overlap <- function(vector1, vector2) {
   c(
     x_only = length(dplyr::setdiff(vector1, vector2)),
