@@ -2,10 +2,10 @@
 % Please edit documentation in R/scale_color_rvhys.R
 \name{scale_color_rvhys}
 \alias{scale_color_rvhys}
-\title{Title}
+\title{ggplot2 color setting}
 \usage{
 scale_color_rvhys()
 }
 \description{
-Title
+ggplot2自定义颜色
 }

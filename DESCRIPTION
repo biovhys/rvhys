@@ -17,6 +17,6 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
+Installation: devtools::install_github("biovhys/rvhys")
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Installation: devtools::install_github("biovhys/rvhys")

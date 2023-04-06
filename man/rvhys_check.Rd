@@ -2,7 +2,7 @@
 % Please edit documentation in R/rvhys_check.R
 \name{rvhys_check}
 \alias{rvhys_check}
-\title{判断向量x是否存在异常值}
+\title{validation check}
 \usage{
 rvhys_check(x)
 }
@@ -10,5 +10,5 @@ rvhys_check(x)
 \item{x}{}
 }
 \description{
-判断向量x是否存在异常值
+判断向量x是否存在异常值.
 }
