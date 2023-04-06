@@ -1,4 +1,6 @@
-#' 判断向量x是否存在异常值
+#' @title validation check
+#' @description
+#' 判断向量x是否存在异常值.
 #'
 #' @param x
 #'
