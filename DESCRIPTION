@@ -11,6 +11,7 @@ Imports:
     data.table,
     dplyr,
     ggplot2,
+    openxlsx,
     stringr,
     tibble
 Suggests: 
