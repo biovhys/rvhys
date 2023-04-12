@@ -1,6 +1,6 @@
 Package: rvhys
 Title: R toolbox of vhys
-Version: 1.0.1
+Version: 1.0.2.9000
 Authors@R: 
     person("Yong", "Zhang", , "biovhys@gmail.com", role = c("aut", "cre"))
 Description: This package is my own toolbox.
