@@ -2,7 +2,7 @@
 % Please edit documentation in R/rvhys_theme_1.R
 \name{rvhys_theme_1}
 \alias{rvhys_theme_1}
-\title{Custom ggplot2 theme}
+\title{Custom ggplot2 theme 1}
 \usage{
 rvhys_theme_1(
   base_size = 6,
@@ -16,4 +16,12 @@ rvhys_theme_1(
 }
 \description{
 This function is used to custom ggplot2 theme derived from theme_classic.
+}
+\examples{
+#' mpg \%>\%
+ggplot(aes(cty, hwy)) +
+  geom_point() +
+  facet_wrap(~ class) +
+  rvhys_theme_1()
+
 }
