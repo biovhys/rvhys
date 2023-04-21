@@ -9,6 +9,6 @@
 #' @export
 #'
 #' @examples
-rescale <- function(x, type = 1){
+rvhys_rescale <- function(x, type = 1){
 
 }
