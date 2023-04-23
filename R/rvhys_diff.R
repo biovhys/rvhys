@@ -6,6 +6,7 @@
 #' @export
 #'
 #' @examples
+#'
 rvhys_diff <- function(vector) {
   vector |>
     tidyr::expand_grid(., .) |>

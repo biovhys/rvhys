@@ -6,6 +6,7 @@
 #' @export
 #'
 #' @examples
+#'
 rvhys_compress <- function(x) {
   dplyr::str_replace_all(x, " ", "")
 }

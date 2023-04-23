@@ -14,4 +14,5 @@ rvhys_range(...)
 }
 \examples{
 rvhys_range(1:5)
+
 }

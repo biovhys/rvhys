@@ -7,6 +7,7 @@
 #' @export
 #'
 #' @examples
+#'
 rvhys_count <- function(df, ...){
   dt <- as.data.table(df)
   dt[, .(n = .N), by = ...] %>%

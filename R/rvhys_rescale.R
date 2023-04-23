@@ -9,6 +9,7 @@
 #' @export
 #'
 #' @examples
+#'
 rvhys_rescale <- function(x, type = 1){
   # type=1 正向指标, type=2 负向指标
   rng = range(x, na.rm = TRUE)

@@ -6,6 +6,7 @@
 #' @export
 #'
 #' @examples
+#'
 rvhys_2pptx <- function(){
 
 }

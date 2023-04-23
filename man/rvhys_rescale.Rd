@@ -2,7 +2,7 @@
 % Please edit documentation in R/rvhys_rescale.R
 \name{rvhys_rescale}
 \alias{rvhys_rescale}
-\title{rescale}
+\title{min-max normalization}
 \usage{
 rvhys_rescale(x, type = 1)
 }
@@ -10,5 +10,5 @@ rvhys_rescale(x, type = 1)
 \item{type}{}
 }
 \description{
-自定义标准化函数
+min-max normalization
 }

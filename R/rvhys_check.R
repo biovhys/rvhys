@@ -8,6 +8,7 @@
 #' @export
 #'
 #' @examples
+#'
 rvhys_check <- function(x) {
   c(
     n_NA = is.na(x) |> sum(),
