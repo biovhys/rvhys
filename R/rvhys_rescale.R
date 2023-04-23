@@ -1,6 +1,6 @@
-#' @title 0-1 rescale
+#' @title min-max normalization
 #' @description
-#' 0-1 rescale
+#' min-max normalization
 #'
 #' @param x
 #' @param type
