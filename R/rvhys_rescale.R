@@ -1,4 +1,4 @@
-#' @title min-max normalization
+#' @title 归一化
 #' @description
 #' min-max normalization
 #'
@@ -9,13 +9,11 @@
 #' @export
 #'
 #' @examples
+#' rvhys_rescale(c(1:5,7:22), min = 1, max = 2)
 #'
-rvhys_rescale <- function(x, type = 1){
-  # type=1 正向指标, type=2 负向指标
+rvhys_rescale <- function(x, type = "pos", min = 0, max = 1){
   rng = range(x, na.rm = TRUE)
-  if (type == 1) {
-    (x - rng[1]) / (rng[2] - rng[1])
-  } else {
-      (rng[2] - x) / (rng[2] - rng[1])
-  }
+  switch(type,
+         "pos" = (max - min) * (x - rng[1]) / (rng[2] - rng[1]) + min,
+         "neg" = (max - min) * (rng[2] - x) / (rng[2] - rng[1]) + min)
 }

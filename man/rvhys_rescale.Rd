@@ -2,13 +2,17 @@
 % Please edit documentation in R/rvhys_rescale.R
 \name{rvhys_rescale}
 \alias{rvhys_rescale}
-\title{min-max normalization}
+\title{归一化}
 \usage{
-rvhys_rescale(x, type = 1)
+rvhys_rescale(x, type = "pos", min = 0, max = 1)
 }
 \arguments{
 \item{type}{}
 }
 \description{
 min-max normalization
+}
+\examples{
+rvhys_rescale(c(1:5,7:22), min = 1, max = 2)
+
 }
