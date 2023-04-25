@@ -1,4 +1,4 @@
-#' @title 置换检验
+#' @title convenient permutation test
 #'
 #' @return
 #' @export
@@ -22,3 +22,7 @@ rvhys_perm <- function(x, y, reps = 10000, seed = 20230425) {
   p <- mean(abs(meanDiff) >= abs(miu0))
   return(p)
 }
+
+a <- runif(5, 1, 2)
+b <- runif(6, 4, 5)
+rvhys_perm(a, b)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/rvhys_perm.R
 \name{rvhys_perm}
 \alias{rvhys_perm}
-\title{置换检验}
+\title{convenient permutation test}
 \usage{
 rvhys_perm(x, y, reps = 10000, seed = 20230425)
 }
 \description{
-置换检验
+convenient permutation test
 }
 \examples{
 a <- runif(5, 1, 2)
