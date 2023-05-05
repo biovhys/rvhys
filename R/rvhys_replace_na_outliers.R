@@ -1,9 +1,7 @@
 #' @title Replace outliers with NA
 #' 
 #' @param data 
-#'
 #' @param var 
-#'
 #' @examples
 #' x <- tibble::tibble(a = c(1, 30, 33, 37), b = c(15, 16, 18, 100))
 #' rvhys_replace_na_outliers(x, a)
