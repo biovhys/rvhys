@@ -1,5 +1,7 @@
 #' @title Replace outliers with NA
 #' 
+#' @importFrom rlang :=
+#' 
 #' @param data 
 #' @param var 
 #' @examples
