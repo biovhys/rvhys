@@ -6,7 +6,8 @@ Authors@R:
 Description: This package is my own toolbox.
 License: GPL (>= 3)
 Depends: 
-    R (>= 4.1.0)
+    R (>= 4.1.0),
+    rlang
 Imports: 
     BSgenome,
     data.table,
@@ -14,7 +15,6 @@ Imports:
     GenomicFeatures,
     ggplot2,
     openxlsx,
-    rlang,
     stringr,
     tibble
 Suggests: 

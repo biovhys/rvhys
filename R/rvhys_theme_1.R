@@ -15,7 +15,7 @@
 #' #' mpg %>%
 #' ggplot(aes(cty, hwy)) +
 #'   geom_point() +
-#'   facet_wrap(~ class) +
+#'   facet_wrap(~class) +
 #'   rvhys_theme_1()
 #'
 rvhys_theme_1 <- function(base_size = 6, # base font size, given in pts. 11 change to 6
@@ -30,7 +30,8 @@ rvhys_theme_1 <- function(base_size = 6, # base font size, given in pts. 11 chan
     legend.text = element_text(size = rel(1), face = "bold"),
     legend.title.align = 0.5,
     strip.background = element_blank(),
-    complete = TRUE)
+    complete = TRUE
+  )
   ggplot2::theme_classic(
     base_size = base_size,
     base_family = base_family,

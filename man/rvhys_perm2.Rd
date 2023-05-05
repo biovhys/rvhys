@@ -7,17 +7,13 @@
 rvhys_perm2(data, formula, reps = 10000)
 }
 \arguments{
-\item{data}{}
-
-\item{formula}{}
-
 \item{reps}{}
 }
 \description{
 pipe-friendly permutation test
 }
 \examples{
-tibble::tibble(a = runif(5, 1, 2), b = runif(5, 4, 5)) \%>\% 
-    pivot_longer(cols = everything(), names_to = "group", values_to = "value") \%>\% 
-    rvhys_perm2(value ~ group)
+tibble::tibble(a = runif(5, 1, 2), b = runif(5, 4, 5)) \%>\%
+  pivot_longer(cols = everything(), names_to = "group", values_to = "value") \%>\%
+  rvhys_perm2(value ~ group)
 }

@@ -10,6 +10,6 @@ rvhys_getDNAseq(chr, start, end, strand)
 extract DNA sequence from Chr, start, end and strand
 }
 \examples{
-rvhys_getDNAseq(3,19329976,19330011,"+")
+rvhys_getDNAseq(3, 19329976, 19330011, "+")
 
 }

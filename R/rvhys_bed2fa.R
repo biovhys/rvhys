@@ -6,7 +6,6 @@
 #' @export
 #'
 #' @examples
-#' 
 bed2fa <- function(bed_file) {
   # genome <- BSgenome.Athaliana.TAIR.TAIR9::BSgenome.Athaliana.TAIR.TAIR9
   # GenomeInfoDb::seqnames(genome) <- c("1", "2", "3", "4", "5", "Mt", "Pt") # 载入参考基因组并转换ID
@@ -18,5 +17,6 @@ bed2fa <- function(bed_file) {
   Biostrings::getSeq(rvhys_Arabidopsis.thaliana.genome, query_gr) %>%
     Biostrings::writeXStringSet(str_c("/home/zhangy/ngsdata/20210928circRNA-seq/RNA_secondary_structure/query_seq/", out_file),
       append = T,
-      format = "fasta") # 检索并写入fasta文件
+      format = "fasta"
+    ) # 检索并写入fasta文件
 }

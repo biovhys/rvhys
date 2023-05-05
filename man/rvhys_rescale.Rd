@@ -13,6 +13,6 @@ rvhys_rescale(x, type = "pos", min = 0, max = 1)
 min-max normalization
 }
 \examples{
-rvhys_rescale(c(1:5,7:22, Inf), min = 1, max = 2)
+rvhys_rescale(c(1:5, 7:22, Inf), min = 1, max = 2)
 
 }

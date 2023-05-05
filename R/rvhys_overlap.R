@@ -7,7 +7,6 @@
 #' @export
 #'
 #' @examples
-#'
 rvhys_overlap <- function(vector1, vector2) {
   c(
     x_only = length(dplyr::setdiff(vector1, vector2)),

@@ -21,7 +21,7 @@ This function is used to custom ggplot2 theme derived from theme_classic.
 #' mpg \%>\%
 ggplot(aes(cty, hwy)) +
   geom_point() +
-  facet_wrap(~ class) +
+  facet_wrap(~class) +
   rvhys_theme_1()
 
 }

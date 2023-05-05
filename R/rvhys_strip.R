@@ -6,7 +6,6 @@
 #' @export
 #'
 #' @examples
-#'
 rvhys_strip <- function(x) {
   x <- dplyr::str_replace_all(x, "^[[:space:]]+", "")
   x <- dplyr::str_replace_all(x, "[[:space:]]+$", "")

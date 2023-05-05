@@ -13,9 +13,9 @@
 #'
 #' @examples
 #' mpg %>%
-#' ggplot(aes(cty, hwy)) +
+#'   ggplot(aes(cty, hwy)) +
 #'   geom_point() +
-#'   facet_wrap(~ class) +
+#'   facet_wrap(~class) +
 #'   rvhys_theme_2()
 #'
 rvhys_theme_2 <- function(base_size = 6, # base font size, given in pts. 11 change to 6
@@ -31,7 +31,8 @@ rvhys_theme_2 <- function(base_size = 6, # base font size, given in pts. 11 chan
     legend.title.align = 0.5,
     strip.background = element_blank(),
     # strip.text = element_text(face = "bold"), # bug? 只要设置就会影响strip text到plot之间的距离
-    complete = TRUE)
+    complete = TRUE
+  )
   ggplot2::theme_test(
     base_size = base_size,
     base_family = base_family,

@@ -7,8 +7,6 @@
 rvhys_na_outliers(data, var)
 }
 \arguments{
-\item{data}{}
-
 \item{var}{}
 }
 \description{

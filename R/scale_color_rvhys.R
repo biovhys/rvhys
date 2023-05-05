@@ -6,7 +6,6 @@
 #' @export
 #'
 #' @examples
-#'
-scale_color_rvhys <- function(){
+scale_color_rvhys <- function() {
 
 }

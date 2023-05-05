@@ -7,7 +7,7 @@
 #' a <- runif(5, 1, 2)
 #' b <- runif(6, 4, 5)
 #' rvhys_perm(a, b)
-#' 
+#'
 rvhys_perm <- function(x, y, reps = 10000, seed = 20230425) {
   set.seed(seed)
   miu0 <- mean(y) - mean(x)

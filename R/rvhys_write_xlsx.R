@@ -16,8 +16,10 @@ rvhys_write_xlsx <- function(df, file) {
     fgFill = "grey80", halign = "center", valign = "center",
     textDecoration = "bold", textRotation = 0
   )
-  wb <- openxlsx::write.xlsx(df, file, headerStyle = hs,
-                             firstRow = TRUE, firstCol = TRUE)
+  wb <- openxlsx::write.xlsx(df, file,
+    headerStyle = hs,
+    firstRow = TRUE, firstCol = TRUE
+  )
   openxlsx::modifyBaseFont(wb, fontSize = 11, fontColour = "black", fontName = "Arial")
   openxlsx::saveWorkbook(wb, file, overwrite = TRUE)
 }
